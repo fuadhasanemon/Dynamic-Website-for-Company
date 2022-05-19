@@ -1947,18 +1947,25 @@ p {
 
 .services .img-container .img-wrap {
   position: absolute;
-  max-width: 10%;
+  /* max-width: 10%;
   right: 10%;
-  top: 0;
+  top: 0; */
+  bottom: -750px;
+}
+
+.services .img-container .img-wrap img {
+  width: 6%;
 }
 
 .services .img-container .img-wrap-two {
   position: absolute;
-  max-width: 7%;
-  left: 180px;
-  bottom: -850px;
+  top: 0;
+  right: -450px;
 }
 
+.services .img-container .img-wrap-two img {
+  width: 12%;
+}
 
 .services .container .row-one {
       padding: 10px;
@@ -2150,3 +2157,68 @@ p {
 .services .container .row-two  .services__column .services__column__item-three a:hover {
   color: #5227c7;
 }
+
+
+/* Our teams section */
+
+.card {
+  transition: .5s all ease;
+  outline: none;
+  border-color: #e7e7e7;
+  
+}
+
+.card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: .5s all ease;
+  border-color: #ffffff;
+}
+
+.card__title {
+  font-size: 40px;
+  color: #000000;
+}
+
+.card-img-top {
+  padding: 30px;
+}
+
+.socials > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.socials > ul > li {
+  padding: 0 10px;
+}
+
+.socials > ul > li i {
+  font-size: 25px;
+  color: #000000;
+  transition: 0.3s all ease;
+}
+
+.socials > ul > li i:hover {
+  color: #494949;
+}
+
+.member__name {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.member__designation {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+/* Our teams section */
+
+
+/* //Contact-US-Form-Section-Start */
+
+
+/* // Contact-US-Form-Section-End */
