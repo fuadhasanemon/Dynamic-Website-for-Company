@@ -2165,7 +2165,7 @@ p {
   transition: .5s all ease;
   outline: none;
   border-color: #e7e7e7;
-  
+  padding: 30px;
 }
 
 .card:hover {
@@ -2181,6 +2181,8 @@ p {
 
 .card-img-top {
   padding: 30px;
+  width: 60%;
+  align-self: center;
 }
 
 .socials > ul {
@@ -2201,7 +2203,7 @@ p {
 }
 
 .socials > ul > li i:hover {
-  color: #494949;
+  color: #e8505b;
 }
 
 .member__name {
