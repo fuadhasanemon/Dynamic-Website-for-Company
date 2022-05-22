@@ -29,29 +29,29 @@
       </p>
     <![endif]-->
 
-	
+
 
 	<!-- ========================= preloader start ========================= -->
-	
+
 	<?php include 'components/preloader/preloader.php' ?>
 
 	<!-- preloader end -->
 
 	<!-- navbar  -->
-	
+
 	<?php include 'components/navbar/nav.php'; ?>
 
 	<!-- navbar  -->
 
 	<!-- ========================= hero-section start ========================= -->
-	
+
 	<?php include 'components/hero/hero.php'; ?>
 
 	<!-- ========================= hero-section end ========================= -->
 
 	<!-- ========================= service-section start ========================= -->
-	
-		<?php include 'components/services/services.php'; ?>
+
+	<?php include 'components/services/services.php'; ?>
 
 	<!-- ========================= service-section end ========================= -->
 
@@ -152,8 +152,8 @@
 
 
 	<!-- ========================= testimonial-section start ========================= -->
-	
-		<?php include 'components/testimonials/testimonials.php'; ?>
+
+	<?php include 'components/testimonials/testimonials.php'; ?>
 
 	<!-- ========================= testimonial-section end ========================= -->
 
@@ -184,8 +184,8 @@
 
 
 	<!---========= Contact US Form Start ==============-->
-	
-	
+
+
 	<?php include 'components/contactUs/contactUs.php'; ?>
 
 
@@ -194,7 +194,7 @@
 	<!---========= Contact US Form End ==============-->
 
 	<!-- ========================= footer start ========================= -->
-	
+
 	<?php include 'components/footer/footer.php'; ?>
 
 	<!-- ========================= footer end ========================= -->

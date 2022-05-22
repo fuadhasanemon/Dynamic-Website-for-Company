@@ -1,113 +1,113 @@
 .blogs .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1200px;
-    margin-block: 2rem;
-    gap: 2rem;
-  }
-  
-  .blogs img {
-    max-width: 100%;
-    display: block;
-    object-fit: cover;
-  }
-  
-  .blogs .card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: clamp(20rem, calc(20rem + 2vw), 22rem);
-    overflow: hidden;
-    border-radius: 1em;
-    padding: 0;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+}
 
-  .blogs .card .pageLink {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  
-  
-  .blogs .card__body {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-  }
-  
-  
-  .blogs .tag {
-    align-self: flex-start;
-    padding: .25em .75em;
-    border-radius: 1em;
-    font-size: .75rem;
-  }
-  
-  .blogs .tag + .tag {
-    margin-left: .5em;
-  }
-  
-  .blogs .tag-blue {
-    background: #56CCF2;
+.blogs img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.blogs .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  border-radius: 1em;
+  padding: 0;
+}
+
+.blogs .card .pageLink {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+.blogs .card__body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.blogs .tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+.blogs .tag+.tag {
+  margin-left: .5em;
+}
+
+.blogs .tag-blue {
+  background: #56CCF2;
   background: linear-gradient(to bottom, #2F80ED, #56CCF2);
-    color: #fafafa;
-  }
-  
-  .blogs .tag-brown {
-    background: #D1913C;
+  color: #fafafa;
+}
+
+.blogs .tag-brown {
+  background: #D1913C;
   background: linear-gradient(to bottom, #FFD194, #D1913C);
-    color: #fafafa;
-  }
-  
-  .blogs .tag-red {
-    background: #cb2d3e;
+  color: #fafafa;
+}
+
+.blogs .tag-red {
+  background: #cb2d3e;
   background: linear-gradient(to bottom, #ef473a, #cb2d3e);
-    color: #fafafa;
-  }
-  
-  .blogs .card__body h4 {
-    font-size: 1.5rem;
-    text-transform: capitalize;
-  }
-  
-  .blogs .card__footer {
-    display: flex;
-    padding: 2rem;
-    margin-top: auto;
-  }
-  
-  .blogs .user {
-    display: flex;
-    gap: .5rem;
-  }
-  
-  .blogs  .user__image {
-    border-radius: 50%;
-  }
-  
-  .blogs .user__info > small {
-    color: #666;
-  }
+  color: #fafafa;
+}
+
+.blogs .card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.blogs .card__footer {
+  display: flex;
+  padding: 2rem;
+  margin-top: auto;
+}
+
+.blogs .user {
+  display: flex;
+  gap: .5rem;
+}
+
+.blogs .user__image {
+  border-radius: 50%;
+}
+
+.blogs .user__info>small {
+  color: #666;
+}
 
 
 
 
 
 
-  /* Single blogs css */
+/* Single blogs css */
 
-  .singlePage {
-    padding: 100px 0;
-  }
+.singlePage {
+  padding: 100px 0;
+}
 
-  /* Create two unequal columns that floats next to each other */
+/* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 75%;
 }
@@ -128,9 +128,9 @@
 
 /* Add a card effect for articles */
 .card {
-   background-color: white;
-   padding: 20px;
-   margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 /* Clear floats after the columns */
@@ -142,7 +142,9 @@
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
