@@ -28,7 +28,7 @@
 
 		<div class="row row-two">
 
-			<div class="col-md-4 services__column">
+			<div class="col-md-4 services__column wow fadeInUp" data-wow-delay=".6s">
 				<div class="services__column__item-one">
 					<div class="content">
 						<div class="img-wrap">

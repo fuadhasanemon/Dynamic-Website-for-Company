@@ -7,7 +7,7 @@
 
     <div class="container">
 
-        <div class="card">
+        <div class="card wow fadeInUp" data-wow-delay=".6s">
             <a class="pageLink" href="single.php"></a>
             <div class="card__header">
                 <img src="https://source.unsplash.com/600x400/?computer" alt="card__image" class="card__image" width="600">
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="card">
+        <div class="card wow fadeInUp" data-wow-delay=".4s">
             <a class="pageLink" href="single.php"></a>
             <div class="card__header">
                 <img src="https://source.unsplash.com/600x400/?food" alt="card__image" class="card__image" width="600">
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <div class="card">
+        <div class="card wow fadeInUp" data-wow-delay=".2s">
             <a class="pageLink" href="single.php"></a>
             <div class="card__header">
                 <img src="https://source.unsplash.com/600x400/?car,automobile" alt="card__image" class="card__image" width="600">

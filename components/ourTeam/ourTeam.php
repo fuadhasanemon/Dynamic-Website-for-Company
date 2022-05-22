@@ -86,7 +86,7 @@ $ourTeam = [
 			<?php foreach ($ourTeam as $teamMember) { ?>
 
 				<div class="col-sm-4">
-					<div class="card">
+					<div class="card wow fadeInUp">
 						<img src="assets/img/team/<?php echo $teamMember['image'] ?>" class="card-img-top" alt="...">
 						<div class="card-body text-center">
 							<h5 class="card-title member__name"><?php echo $teamMember['name']; ?></h5>
