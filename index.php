@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
-	<title>Delivery - Home Delivery App Landing Page Template</title>
+	<title>Delivery - Home Delivery App</title>
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
@@ -128,7 +128,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-12">
 						<nav class="navbar navbar-expand-lg">
-							<a class="navbar-brand" href="index.html">
+							<a class="navbar-brand" href="index.php">
 								<img src="assets/img/logo/logo.svg" alt="Logo" />
 							</a>
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
