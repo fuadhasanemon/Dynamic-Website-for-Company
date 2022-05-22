@@ -8,7 +8,7 @@
 
 		<!--Section description-->
 		<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-		a matter of hours to help you.</p>
+			a matter of hours to help you.</p>
 
 		<div class="row">
 
@@ -24,7 +24,7 @@
 							<div class="md-form mb-3">
 								<label for="name" class="">Your name</label>
 								<input type="text" id="name" name="name" class="form-control">
-								
+
 							</div>
 						</div>
 						<!--Grid column-->
@@ -34,7 +34,7 @@
 							<div class="md-form mb-3">
 								<label for="email" class="">Your email</label>
 								<input type="text" id="email" name="email" class="form-control">
-								
+
 							</div>
 						</div>
 						<!--Grid column-->
@@ -48,7 +48,7 @@
 							<div class="md-form mb-3">
 								<label for="subject" class="">Subject</label>
 								<input type="text" id="subject" name="subject" class="form-control">
-								
+
 							</div>
 						</div>
 					</div>
@@ -63,7 +63,7 @@
 							<div class="md-form mb-3">
 								<label for="message">Your message</label>
 								<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-								
+
 							</div>
 
 						</div>
@@ -79,7 +79,7 @@
 			</div>
 			<!--Grid column-->
 
-			</div>
+		</div>
 	</div>
 
 </section>
